@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Independent demonstration project featuring a fictional student finance dashboard.">
+  <title>Student Financial Database</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js?v=7" defer></script>
+</head>
+<body>
+  <img class="floating-euro" src="assets/euro_lowpoly_synthwave.gif" alt="" aria-hidden="true">
+  <main class="app-shell">
+    <div class="language-switcher" role="group" aria-label="Language">
+      <button class="language-option is-active" type="button" data-language="en" aria-pressed="true">EN</button>
+      <span aria-hidden="true">|</span>
+      <button class="language-option" type="button" data-language="de" aria-pressed="false">DE</button>
+    </div>
+    <section id="login-view" class="view login-view" aria-labelledby="login-title">
+      <div class="terminal-panel">
+        <p class="eyebrow" data-i18n="loginEyebrow">[ SECURE STUDENT NETWORK ]</p>
+        <h1 id="login-title" data-i18n="loginTitle">STUDENT FINANCIAL DATABASE</h1>
+        <p class="subtitle" data-i18n="loginSubtitle">RESTRICTED ACCESS // CLASSIFIED STUDENT FINANCES</p>
+        <form id="login-form" class="login-form">
+          <label for="username" data-i18n="userLabel">User</label>
+          <input id="username" name="username" type="text" autocomplete="username" required>
+          <label for="password" data-i18n="passwordLabel">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required>
+          <button type="submit" class="primary-button" data-i18n="accessButton">ACCESS SYSTEM</button>
+          <p id="login-message" class="message error-message" role="alert" hidden data-i18n="accessDenied">ACCESS DENIED</p>
+        </form>
+        <p class="terminal-note" data-i18n="loginNote">Educational simulation only. No real financial data or security system.</p>
+      </div>
+    </section>
+
+    <section id="dashboard-view" class="view dashboard-view" aria-labelledby="dashboard-title" hidden>
+      <header class="dashboard-header">
+        <div>
+          <p class="eyebrow" data-i18n="dashboardEyebrow">[ ACCESS GRANTED // SESSION ACTIVE ]</p>
+          <h1 id="dashboard-title" data-i18n="dashboardTitle">STUDENT FINANCIAL OVERVIEW</h1>
+          <p class="intro" data-i18n="dashboardIntro">Explore and analyze the fictional bank transactions from a regular student.</p>
+        </div>
+        <button id="logout-button" class="secondary-button" type="button" data-i18n="logoutButton">LOG OUT</button>
+      </header>
+
+      <section class="stats-grid" aria-label="Financial statistics" data-i18n-aria-label="statsLabel">
+        <article class="stat-card balance-card">
+          <span class="stat-label" data-i18n="balanceLabel">Simulated balance</span>
+          <strong id="balance-value" class="stat-value">2,347.80 EUR</strong>
+          <span class="stat-detail" data-i18n="balanceDetail">Fictional starting snapshot</span>
+        </article>
+        <article class="stat-card income-card">
+          <span class="stat-label" data-i18n="incomeLabel">Monthly income</span>
+          <strong id="income-value" class="stat-value">--</strong>
+          <label class="stat-month-label" for="income-month-select" data-i18n="monthSelectLabel">Month</label>
+          <select id="income-month-select" class="stat-month-select" aria-label="Income month"></select>
+        </article>
+        <article class="stat-card expense-card">
+          <span class="stat-label" data-i18n="expenseLabel">Monthly expenses</span>
+          <strong id="expense-value" class="stat-value">--</strong>
+          <label class="stat-month-label" for="expense-month-select" data-i18n="monthSelectLabel">Month</label>
+          <select id="expense-month-select" class="stat-month-select" aria-label="Expense month"></select>
+        </article>
+        <article class="stat-card file-card">
+          <span class="stat-label" data-i18n="fileSizeLabel">CSV file size</span>
+          <strong id="file-size-value" class="stat-value">--</strong>
+          <span class="stat-detail" data-i18n="fileSizeDetail">Loaded from local data source</span>
+        </article>
+      </section>
+
+      <section class="legend panel" aria-labelledby="legend-title">
+        <h2 id="legend-title" data-i18n="legendTitle">Column legend</h2>
+        <ul>
+          <li><strong data-i18n="columnDate">Date</strong>: <span data-i18n="legendDate">Transaction date in <code>DD.MM.YYYY</code> format.</span></li>
+          <li><strong data-i18n="columnTransactionId">TransactionID</strong>: <span data-i18n="legendTransactionId">Unique transaction identifier.</span></li>
+          <li><strong data-i18n="columnAmount">Amount</strong>: <span data-i18n="legendAmount">Positive values are income; negative values are expenses.</span></li>
+          <li><strong data-i18n="columnCurrency">Currency</strong>: <span data-i18n="legendCurrency">Currency used for the transaction.</span></li>
+          <li><strong data-i18n="columnRecipientIban">RecipientIBAN</strong>: <span data-i18n="legendRecipientIban">Recipient's International Bank Account Number.</span></li>
+          <li><strong data-i18n="columnBic">BIC</strong>: <span data-i18n="legendBic">Recipient bank's Bank Identifier Code.</span></li>
+          <li><strong data-i18n="columnBank">Bank</strong>: <span data-i18n="legendBank">Name of the recipient bank.</span></li>
+          <li><strong data-i18n="columnDescription">Description</strong>: <span data-i18n="legendDescription">Short description of the transaction's purpose.</span></li>
+          <li><strong data-i18n="columnReferenceId">ReferenceID</strong>: <span data-i18n="legendReferenceId">Reference number associated with the transaction.</span></li>
+          <li><strong data-i18n="columnCategory">Category</strong>: <span data-i18n="legendCategory">Incoming Payment, Entertainment, Studies, Transportation, or Other.</span></li>
+        </ul>
+      </section>
+
+      <section class="table-panel panel" aria-labelledby="transactions-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="streamEyebrow">[ LIVE DATA STREAM ]</p>
+            <h2 id="transactions-title" data-i18n="transactionsTitle">Transaction log</h2>
+          </div>
+          <p id="transaction-count" class="transaction-count">Showing 0 of 0 transactions</p>
+        </div>
+
+        <div class="controls" aria-label="Transaction controls" data-i18n-aria-label="controlsLabel">
+          <label>
+            <span data-i18n="searchLabel">Search all fields</span>
+            <input id="search-input" type="search" placeholder="Search transactions..." data-i18n-placeholder="searchPlaceholder" autocomplete="off">
+          </label>
+          <label>
+            <span data-i18n="monthFilterLabel">Month</span>
+            <select id="month-filter">
+              <option value="all" data-i18n="allMonths">All Months</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="categoryFilterLabel">Category</span>
+            <select id="category-filter">
+              <option value="all" data-i18n="allCategories">All Categories</option>
+            </select>
+          </label>
+          <button id="reset-button" class="secondary-button" type="button" data-i18n="resetButton">RESET FILTERS</button>
+          <div class="column-menu">
+            <button id="columns-button" class="secondary-button" type="button" aria-expanded="false" aria-controls="column-options" data-i18n="columnsButton">CUSTOMIZE COLUMNS</button>
+            <fieldset id="column-options" class="column-options" hidden>
+              <legend data-i18n="visibleColumns">Visible columns</legend>
+            </fieldset>
+          </div>
+        </div>
+
+        <p id="data-message" class="message error-message" role="alert" hidden></p>
+        <div class="table-container">
+          <table>
+            <thead id="table-head"></thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer class="source">
+        <p data-i18n="authorLabel">Author: TheGitter5523</p>
+        <p data-i18n="projectLabel">Project: Fictional Student Finance Dashboard</p>
+        <p data-i18n="licenseText">License: MIT License</p>
+        <p data-i18n="disclaimerText">Disclaimer: All banking transactions and financial information are fictional and intended for demonstration purposes only.</p>
+        <p data-i18n="aiNotice">Notice: Some elements of this website were generated with AI assistance.</p>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>

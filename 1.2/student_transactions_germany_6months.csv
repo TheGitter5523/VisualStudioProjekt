@@ -1,0 +1,80 @@
+Datum,Betrag,Sign,Konto-Name,IBAN,BIC,Betreff,Kategorie
+01.01.2025,222.59,+,Buchladen Stuttgart,DE00260876273137374942,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+01.01.2025,168.59,-,Mensa-Abonnement,DE00354150731582776996,COBADEFFXXX,Studienmaterial,Studienmaterial
+02.01.2025,9.42,-,Buchladen Köln,DE00682634979244091928,COBADEFFXXX,BahnCard-Abonnement,Transport
+04.01.2025,28.28,-,Buchladen Hamburg,DE00796048723658898289,COBADEFFXXX,Mensa-Abonnement,Lebensmittel
+09.01.2025,296.86,-,Mensa-Abonnement,DE00889306490484208422,COBADEFFXXX,BahnCard-Abonnement,Transport
+10.01.2025,248.91,-,Studienheft,DE00765641708193848560,COBADEFFXXX,Studienmaterial,Studienmaterial
+11.01.2025,83.72,-,Buchladen Köln,DE00980248801192569443,COBADEFFXXX,BahnCard-Abonnement,Transport
+12.01.2025,106.90,-,Buchladen Leipzig,DE00847133933719452376,COBADEFFXXX,Buch: Datenanalyse mit Python,Studium
+19.01.2025,83.82,-,BaFöG-Konto,DE00904899923045609156,COBADEFFXXX,BahnCard-Abonnement,Transport
+21.01.2025,51.76,-,Buchladen Stuttgart,DE00632949740704546543,COBADEFFXXX,Studienmaterial,Studienmaterial
+22.01.2025,222.33,+,Mensa-Abonnement,DE00780791512660942722,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+23.01.2025,21.33,-,Buchladen Stuttgart,DE00433641601268567690,COBADEFFXXX,Buch: Datenanalyse mit Python,Studium
+24.01.2025,138.10,+,Buchladen Hamburg,DE00190850439815733523,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+27.01.2025,230.61,-,Studentenwerk,DE00562511513199020028,COBADEFFXXX,Mensa-Abonnement,Lebensmittel
+28.01.2025,30.75,-,Buchladen Leipzig,DE00832894260718908051,COBADEFFXXX,Buch: Datenbanken,Studium
+06.02.2025,136.39,-,Buchladen Leipzig,DE00677136496567232651,COBADEFFXXX,BahnCard-Abonnement,Transport
+08.02.2025,299.20,-,Buchladen München,DE00668985024610717864,COBADEFFXXX,Mensa-Monatskarte,Lebensmittel
+17.02.2025,273.83,-,Buchladen Nürnberg,DE00836658612242850935,COBADEFFXXX,Buch: Python-Programmierung,Studium
+18.02.2025,79.19,-,Studienmaterial,DE00560477435018897904,COBADEFFXXX,Studienmaterial,Studienmaterial
+18.02.2025,258.30,-,BaFöG-Konto,DE00930935690612510119,COBADEFFXXX,Mensa-Monatskarte,Lebensmittel
+19.02.2025,262.97,-,Buchladen Hannover,DE00855669333089104239,COBADEFFXXX,Buch: Künstliche Intelligenz,Studium
+20.02.2025,19.53,-,Buchladen Kiel,DE00710027306711391746,COBADEFFXXX,BahnCard-Abonnement,Transport
+21.02.2025,137.93,-,Buchladen Leipzig,DE00384342155743252509,COBADEFFXXX,BahnCard-Abonnement,Transport
+25.02.2025,80.41,-,Buchladen Hannover,DE00438382606667001577,COBADEFFXXX,Studienmaterial,Studienmaterial
+28.02.2025,33.34,+,Buchladen Frankfurt,DE00884541428591474316,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+01.03.2025,34.00,-,Buchladen Bremen,DE00376069723034697471,COBADEFFXXX,BahnCard-Abonnement,Transport
+05.03.2025,112.49,-,Buchladen Frankfurt,DE00790536093004954321,COBADEFFXXX,Buch: Datenbanken,Studium
+07.03.2025,162.00,-,Studienmaterial,DE00644952595521903427,COBADEFFXXX,BahnCard-Abonnement,Transport
+08.03.2025,263.46,+,Buchladen Berlin,DE00943832001674699369,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+08.03.2025,19.68,-,BaFöG-Konto,DE00738628035617842786,COBADEFFXXX,Buch: Statistik für Informatiker,Studium
+08.03.2025,2.65,-,Studentenwerk,DE00177707280901729748,COBADEFFXXX,Studienmaterial,Studienmaterial
+12.03.2025,127.36,-,Buchladen Magdeburg,DE00940567232871557036,COBADEFFXXX,BahnCard-Abonnement,Transport
+14.03.2025,289.33,-,Mensa-Abonnement,DE00941553223752421203,COBADEFFXXX,Studienmaterial,Studienmaterial
+22.03.2025,142.85,-,Mensa-Abonnement,DE00405589483620123307,COBADEFFXXX,Buch: Python-Programmierung,Studium
+22.03.2025,196.21,+,Buchladen Hamburg,DE00564190732648075247,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+23.03.2025,93.86,-,Buchladen Bremen,DE00620528082625354164,COBADEFFXXX,Buch: Datenanalyse mit Python,Studium
+26.03.2025,142.16,-,Buchladen Rostock,DE00208750243494802527,COBADEFFXXX,Buch: Datenanalyse mit Python,Studium
+27.03.2025,21.23,-,Mensa-Abonnement,DE00244992004643600820,COBADEFFXXX,BahnCard-Abonnement,Transport
+28.03.2025,99.46,+,BahnCard,DE00421062425739517741,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+02.04.2025,175.46,+,BahnCard,DE00281507579362927099,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+02.04.2025,173.96,-,Mensa-Abonnement,DE00962357110344313419,COBADEFFXXX,Buch: Datenbanken,Studium
+04.04.2025,15.65,-,Mensa-Abonnement,DE00117014645382834032,COBADEFFXXX,Studienmaterial,Studienmaterial
+08.04.2025,80.05,-,Buchladen München,DE00844211740999541756,COBADEFFXXX,Mensa-Abonnement,Lebensmittel
+11.04.2025,278.74,-,Buchladen Berlin,DE00628367228981247859,COBADEFFXXX,BahnCard-Abonnement,Transport
+13.04.2025,1.15,-,Buchladen Kiel,DE00428869972841033146,COBADEFFXXX,Buch: Webentwicklung,Studium
+14.04.2025,55.45,-,Buchladen Magdeburg,DE00186912863383003772,COBADEFFXXX,Buch: Künstliche Intelligenz,Studium
+16.04.2025,64.52,-,Buchladen Kiel,DE00167602020315856628,COBADEFFXXX,BahnCard-Abonnement,Transport
+17.04.2025,24.49,+,Buchladen Frankfurt,DE00786028769932778793,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+19.04.2025,178.56,-,Studienheft,DE00583333414863035732,COBADEFFXXX,Buch: Datenvisualisierung,Studium
+19.04.2025,157.07,-,Buchladen Leipzig,DE00872141477526131896,COBADEFFXXX,Studienmaterial,Studienmaterial
+22.04.2025,215.66,-,Buchladen München,DE00442080835838354828,COBADEFFXXX,Studienmaterial,Studienmaterial
+22.04.2025,258.61,+,Buchladen Kiel,DE00756791036997787289,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+26.04.2025,258.57,-,Buchladen Stuttgart,DE00319295937125420032,COBADEFFXXX,Mensa-Abonnement,Lebensmittel
+30.04.2025,226.19,+,Buchladen Stuttgart,DE00568563508025580898,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+02.05.2025,92.82,-,Studentenwerk,DE00512525960464690368,COBADEFFXXX,Buch: Statistik für Informatiker,Studium
+04.05.2025,22.44,-,Buchladen Köln,DE00405755262231357644,COBADEFFXXX,Studienmaterial,Studienmaterial
+06.05.2025,131.74,-,Mensa-Abonnement,DE00448778517419995459,COBADEFFXXX,Mensa-Monatskarte,Lebensmittel
+10.05.2025,279.56,-,Buchladen Hamburg,DE00404908447703426831,COBADEFFXXX,Studienmaterial,Studienmaterial
+16.05.2025,75.71,-,Studentenwerk,DE00831280176098369353,COBADEFFXXX,Studienmaterial,Studienmaterial
+18.05.2025,3.40,-,Buchladen Berlin,DE00729022781755386875,COBADEFFXXX,BahnCard-Abonnement,Transport
+20.05.2025,63.58,-,Buchladen Hannover,DE00892630223871865867,COBADEFFXXX,Mensa-Abonnement,Lebensmittel
+21.05.2025,293.95,-,Buchladen Frankfurt,DE00609401661568012063,COBADEFFXXX,Buch: Python-Programmierung,Studium
+22.05.2025,31.29,-,Mensa-Abonnement,DE00964088860741839914,COBADEFFXXX,Buch: Lineare Algebra,Studium
+27.05.2025,111.08,+,Mensa-Abonnement,DE00595510347510806903,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+27.05.2025,83.37,-,BaFöG-Konto,DE00989039935143933462,COBADEFFXXX,BahnCard-Abonnement,Transport
+28.05.2025,49.17,-,Buchladen Frankfurt,DE00575343095498833424,COBADEFFXXX,Buch: Python für Einsteiger,Studium
+29.05.2025,32.56,+,Mensa-Abonnement,DE00413996113261326122,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+30.05.2025,105.03,-,Buchladen Berlin,DE00381640757634783939,COBADEFFXXX,Buch: Datenbanken,Studium
+04.06.2025,115.87,-,Studienmaterial,DE00393675055469625517,COBADEFFXXX,Studienmaterial,Studienmaterial
+12.06.2025,218.70,-,Buchladen Hannover,DE00798911220974453361,COBADEFFXXX,BahnCard-Abonnement,Transport
+12.06.2025,129.67,-,Buchladen Hannover,DE00461920094798290151,COBADEFFXXX,Buch: Datenvisualisierung,Studium
+12.06.2025,91.90,-,Buchladen Stuttgart,DE00127283235244442775,COBADEFFXXX,BahnCard-Abonnement,Transport
+13.06.2025,98.81,-,Buchladen Berlin,DE00991584916440353616,COBADEFFXXX,Buch: Algorithmen,Studium
+19.06.2025,288.78,-,Buchladen Leipzig,DE00224979627172772162,COBADEFFXXX,Buch: Informatik Grundlagen,Studium
+21.06.2025,153.07,-,Mensa-Abonnement,DE00232979978673378352,COBADEFFXXX,Mensa-Abonnement,Lebensmittel
+23.06.2025,131.10,+,BahnCard,DE00891892371403439468,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+24.06.2025,270.06,+,BahnCard,DE00868875168233506710,COBADEFFXXX,BaFöG-Zahlung,Sozialleistungen
+26.06.2025,279.28,-,Buchladen Stuttgart,DE00283542615336902923,COBADEFFXXX,Mensa-Monatskarte,Lebensmittel
+28.06.2025,12.10,-,Online-Shop,DE00330091805707823745,COBADEFFXXX,BahnCard-Abonnement,Transport
